@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Milestone 02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Media tag -->
+    <main>
+        <section>
+            <audio src="./media/audio/audio.mp3" controls></audio><br><br>
+            <video src="./media/video/video.mp4" controls width="560px" height="315px" ></video>
+
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/74Ge1I0FzBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <!-- Create a simple table -->
+        <section class="table-section">
+            <table>
+                <caption>Top 4 richest people in the world</caption>
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Full Name</th>
+                        <th>Position</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Bill Gates</td>
+                        <td>Founder Microsoft</td>
+                        <td>1000$</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Steve Jobs</td>
+                        <td>Founder Apple</td>
+                        <td>1200$</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Larry page</td>
+                        <td>Founder Google</td>
+                        <td>1300$</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Mark Zuckerberg</td>
+                        <td>Founder Facebook</td>
+                        <td>1400$</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <!-- Create a simple form -->
+        <section>
+            <form action="">
+                <label for="fname">
+                    First Name:<input type="text" placeholder="Enter your First Name:" name="fname" id="fname">
+                </label>
+                <br><br>
+                <label for="lname">
+                    Last Name:<input type="text" placeholder="Enter your Last Name:" name="lname" id="lname">
+                </label>
+                <br><br>
+                <label for="email">
+                    Last Name:<input type="email" placeholder="Enter your Email:" name="email" id="email">
+                </label>
+
+                <!-- select gender -->
+                <!-- ***Use Same Name otherwise multiple select  -->
+                <br><br>
+                <fieldset>
+                    <legend>Select your Gender</legend>
+                    <label for="gender">
+                        <input type="radio" name="gender" id="gender">
+                        Male
+                    </label>
+                    <label for="gender">
+                        <input type="radio" name="gender" id="gender">
+                        Female
+                    </label>
+                </fieldset>
+        
+
+                <!-- Create Fieldset  -->
+                <fieldset>
+                    <legend>Select your subject</legend>
+                    <label for="mathematics">
+                        <input type="checkbox" name="cbox" id="mathematics">
+                        Mathematics
+                    </label>
+                    <label for="biology">
+                        <input type="checkbox" name="cbox" id="biology">
+                        Biology
+                    </label>
+                    <label for="chemistry">
+                        <input type="checkbox" name="cbox" id="chemistry">
+                        Chemistry
+                    </label>
+                    
+                </fieldset>
+
+                <!-- Create textarea  -->
+                <textarea name="tarea" id="tarea" cols="30" rows="10">Introduse yourself</textarea>
+
+
+                <!-- Create Submit and Reset button  -->
+                <br><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+                
+
+            </form>
+        </section>
+
+    
+    </main>
+    
+    
+</body>
+</html>
